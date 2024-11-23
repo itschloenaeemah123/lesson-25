@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional statements</title>
+</head>
+<body>
+ <h1> conditional statements with time</h1> 
+ <p id="hour" ></p> 
+ <p id="greeting"></p>
+ <script>
+    var greeting;
+    var hour = new().getHours(); // current Hour
+    if (hour < 11)
+ {
+    Greeting = "Good morning!";
+ }
+ else if (hour < 19)
+{
+    Greeting = "Good day!";
+}
+else
+{
+ Greeting = "Good evening!";  
+}
+
+ document.getElementById("hour") = "current hour is : " + hour;
+ document.getElementById("greeting") = greeting
+ </script>
+</body>
+</html>
